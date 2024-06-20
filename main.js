@@ -128,7 +128,8 @@ document.write(a + " " + b + " " + c); // Old Way
 
 console.log(` ${a} "
   ${b} " 
-  \\ ${c} `);
+  \\ ${c}
+  `);
 
 let markup = `
   <div class="card"
@@ -136,8 +137,8 @@ let markup = `
       <h2>${a} ${b} ${c} </h2>
     </div>
   </div>
-`
-document.write(markup)
+`;
+document.write(markup);
 
 /*
 ===========================================
@@ -160,3 +161,24 @@ document.write(markup)
 Extra
 - Use ES6 Repeat
 */
+
+let titleName = "Elzero";
+let descName = "Elzero Web School";
+let date = "25/10";
+
+let mark = `
+<div id="card"
+<div class="child"
+<h3>Hello ${titleName} </h3>
+<p> ${descName} </p>
+<span> ${date}</span>
+</div>
+</div>
+`;
+
+let repeatMark = mark.repeat(4);
+document.write(" ---------- ");
+
+// document.write(mark.repeat);
+
+document.getElementById("card") = repeatMark;
