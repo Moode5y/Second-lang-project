@@ -176,9 +176,7 @@ let mark = `
 </div>
 `;
 
-let repeatMark = mark.repeat(4);
 document.write(" ---------- ");
+document.write(mark.repeat(4));
 
-// document.write(mark.repeat);
-
-document.getElementById("card") = repeatMark;
+hello
