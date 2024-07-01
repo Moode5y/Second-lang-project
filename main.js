@@ -180,3 +180,7 @@ document.write(" ---------- ");
 document.write(mark.repeat(4));
 
 hello
+
+hello2
+
+dsc
